@@ -18,22 +18,22 @@ en el siguiente ejemplo descargaremos desde el capitulo 1 hasta el 3, si no agre
 Nota: Las descargas se guardan en la ruta por defecto de descargas si no se tiene FDM para especificarlas
 
 ```pyhon
-python -m main.py download srank-monster-no-behemoth-dakedo-neko-to-machigawarete-elf-musume-no-pet-toshite-kurashitemasu 1 3
+python main.py download srank-monster-no-behemoth-dakedo-neko-to-machigawarete-elf-musume-no-pet-toshite-kurashitemasu 1 3
 ```
 ##Buscar
 ```pyhon
-python -m main.py download srank-monster-no-behemoth-dakedo-neko-to-machigawarete-elf-musume-no-pet-toshite-kurashitemasu 1 3
+python main.py download srank-monster-no-behemoth-dakedo-neko-to-machigawarete-elf-musume-no-pet-toshite-kurashitemasu 1 3
 ```
 
 ##GUI
 hay dos Interfaces, una para descargar una serie o un capitulo(gui.py) y una para descargar los ultimos capitulos(gui_json.py)
 
 ```pyhon
-python -m gui.py
+python gui.py
 ```
 
 ```pyhon
-python -m gui_json.py
+python gui_json.py
 ```
 
 #TO-DO list
@@ -45,3 +45,4 @@ python -m gui_json.py
 - [ ] Barra de progreso
 - [ ] Agregar base de datos para series decargadas
 - [ ] Resolver bugs
+- [ ] Soporte completo para linux
